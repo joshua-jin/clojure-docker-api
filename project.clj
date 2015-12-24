@@ -1,8 +1,8 @@
 (defproject clojure-docker-api "0.1.0-SNAPSHOT"
   :description "docker api with clojure"
-  :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :url "https://github.com/joshua-jin/clojure-docker-api"
+  :license {:name "The MIT License (MIT)"
+            :url "https://github.com/joshua-jin/clojure-docker-api/blob/master/LICENSE"}
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [http-kit "2.1.19"]
                  [expectations "2.0.9"]]
