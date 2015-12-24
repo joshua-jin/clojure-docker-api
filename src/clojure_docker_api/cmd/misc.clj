@@ -1,4 +1,4 @@
-(ns clojure-docker-api.cmd
+(ns clojure-docker-api.cmd.misc
   (:require [clojure-docker-api.util :as util]
             [org.httpkit.client :as http]))
 
