@@ -14,3 +14,7 @@
   (if (= \/ (last url))
     url
     (str url "/")))
+
+(defn- build-resp-body
+  [resp]
+  (hash-map :status (:status resp) :body (:body resp)))
